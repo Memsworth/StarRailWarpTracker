@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/StarRailWarpTracker.Database/StarRailWarpTracker.Database.csproj" Id="43860775-8cdd-4c88-b788-8d967b710372" />
+  <Project Path="src/StarRailWarpTracker.Domain/StarRailWarpTracker.Domain.csproj" Id="230a2c7b-d96c-45cb-8301-2291ac8baccf" />
+</Solution>
