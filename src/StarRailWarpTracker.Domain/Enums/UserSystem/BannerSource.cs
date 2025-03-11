@@ -1,4 +1,4 @@
-﻿namespace StarRailWarpTracker.Domain.Enums;
+﻿namespace StarRailWarpTracker.Domain.Enums.UserSystem;
 
 public enum BannerSource
 {

@@ -1,8 +1,7 @@
-﻿namespace StarRailWarpTracker.Domain.DatabaseTables;
+﻿namespace StarRailWarpTracker.Domain.DatabaseTables.UserDatabase;
 
-public class User
+public class User : BaseEntity
 {
-    public int Id { get; set; }
     public int StarRailAccountId { get; set; }
     public string ProfilePhoto { get; set; }
     public ICollection<Character> ObtainedCharacters { get; set; }
