@@ -1,8 +1,9 @@
-using StarRailWarpTracker.Domain.Enums.GameSystem;
 
-namespace StarRailWarpTracker.Domain.DatabaseTables.GameDatabase;
+using StarRailWarpTracker.Domain.Enums.GameEnums;
 
-public class UniqueLightcone : BaseEntity
+namespace StarRailWarpTracker.Domain.Entities.GameDatabase;
+
+public class GameLightcone : BaseEntity
 {
     public PathSystem Path { get; set; }
     public RaritySystem Rarity { get; set; }

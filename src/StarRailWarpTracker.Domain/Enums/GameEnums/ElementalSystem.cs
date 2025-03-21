@@ -1,4 +1,4 @@
-namespace StarRailWarpTracker.Domain.Enums.GameSystem;
+namespace StarRailWarpTracker.Domain.Enums.GameEnums;
 
 public enum ElementalSystem
 {

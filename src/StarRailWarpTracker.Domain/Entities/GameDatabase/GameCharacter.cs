@@ -1,8 +1,8 @@
-using StarRailWarpTracker.Domain.Enums.GameSystem;
+using StarRailWarpTracker.Domain.Enums.GameEnums;
 
-namespace StarRailWarpTracker.Domain.DatabaseTables.GameDatabase;
+namespace StarRailWarpTracker.Domain.Entities.GameDatabase;
 
-public class UniqueCharacter : BaseEntity
+public class GameCharacter : BaseEntity
 {
     public ElementalSystem Element { get; set; }
     public PathSystem Path { get; set; }
